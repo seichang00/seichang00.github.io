@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 694 960">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #002c6a;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="694" height="960" transform="translate(1082 65)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03a7ff"/>
+      <stop offset="1" stop-color="#001ebc"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2" transform="translate(-1082 -65)">
+    <g id="bg" transform="translate(1081.883 -49.049)">
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M254.522,0,0,837.57l254.522-67.486h0Z" transform="translate(389.181 269.97) rotate(15.009)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-4" d="M51.338-.6,231.083,670.219,0,670.213Z" transform="matrix(0.259, -0.966, 0.966, 0.259, -12.704, 164.414)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-4" d="M633.649.972l-385.4,592.7L471,964.408l152.778-91.8Z" transform="matrix(0.857, 0.515, -0.515, 0.857, 92.034, 9.657)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-3" d="M277.008,1.925,65.374,640.469l533.316-9.055Z" transform="translate(641.513 60.483) rotate(90.974)"/>
+    </g>
+  </g>
+</svg>

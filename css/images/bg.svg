@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 886.372 1221.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #002c6a;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03a7ff"/>
+      <stop offset="1" stop-color="#001ebc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(191.886 58.952)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M254.522,0,0,837.57l254.522-67.486h0Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 389.181, 269.97)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-2" d="M51.338-.6,231.083,670.219,0,670.213Z" transform="translate(-12.704 164.414) rotate(-75)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-2" d="M633.649.972l-385.4,592.7L471,964.408l152.778-91.8Z" transform="translate(92.034 9.657) rotate(31)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M277.008,1.925,65.374,640.469l533.316-9.055Z" transform="matrix(-0.017, 1, -1, -0.017, 641.513, 60.483)"/>
+  </g>
+</svg>

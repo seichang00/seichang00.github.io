@@ -1,0 +1,280 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,900,900i'); */
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,400i,600,600i,700,700i|Lato:700,900');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+
+#wallpaper {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    position: absolute;
+    top:-1%;
+    width: 20.5%;
+    min-width: 40%;
+    margin-left: -2%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.container {
+    text-align: left;
+    
+    /* padding-top: 10%; */
+    padding-left: 30%;
+    padding-top:1px;
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container h1{
+    font-family: 'Lato', sans-serif;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #3F2A2A;
+}
+
+.container h2{
+    text-align: center;
+    
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    color: #5D5555;
+}
+
+.container p{
+
+    width: 68%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #5D5555;
+    line-height: 22px;
+    font-size: 1.2em;
+    margin-top: 40px;
+}
+
+/* 
+.cta {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6em;
+    padding: .8em 3em;
+    color: white;
+    background: #002c6a;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .2em;
+    padding: 8px 50px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.cta:hover {
+    background: #024aaf;
+    transition: 0.3s;
+} */
+
+.social ul {
+    list-style-type: none;
+    float: none;
+    height: 50px;
+    width: 200px;
+    padding-left: 0%;
+    margin: auto;
+}
+
+.social ul li {
+    float: left;
+}
+
+.social ul li a {
+    float: right;
+    display: block;
+    padding-left: 1em;
+    margin: 0;
+    text-decoration: none;
+} 
+
+.social ul li a:hover{
+    filter: invert(40%);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.social ul li a img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numbers {
+    background-image: url(images/row_home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 80px;
+    margin-left: -80px;
+    margin-top: 25px;
+}
+
+.stats{
+    height: 60px;
+    width: 400px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.stat{
+    box-sizing: border-box;
+    width: 100px;
+    float: left;
+    text-align: center;
+    color: #3F2A2A;
+    border-left: 3px solid #707070;
+  }
+  .stat .label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #3F2A2A;
+    
+    font-family: 'Lato', sans-serif;
+  }
+
+  .stat .label sup{
+      font-size: 0.3em;
+      vertical-align: 28px;
+      text-transform: lowercase;
+  }
+  
+  .stat .value{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+
+  }
+
+
+/* NAVIGATION HEADER! */
+
+nav.header {
+    background: #002C6A;
+    height: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.download {
+    width:220px;
+    height:20px;
+    margin-top: -5px;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin-right: -20px;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1em
+}
+
+.download:hover{
+    background-color: #024aaf;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+nav.header ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 2.5em;
+}
+
+nav.header ul li {
+    float: left;
+}
+
+nav.header ul li a {
+    float: right;
+    display: block;
+    padding-left: 1em;
+    margin: 0;
+    text-decoration: none;
+} 
+
+.vertical-menu {
+    width: 110px; /* Set a width if you like */
+    z-index: 2;
+    position: absolute;
+    margin-top: 30%;
+}
+
+.vertical-menu a {
+    display: inline;
+    margin-left: 1.6em;
+    font-size: 1.4em;
+    font-family: 'Exo 2', sans-serif;
+    color: white; /* Black text color */
+    font-weight: normal;
+    letter-spacing: 1px;
+    display: block; /* Make the links appear below each other */
+    padding: 18px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    position: relative;
+    text-transform: lowercase;  
+}
+/* 
+.vertical-menu a:hover {
+    transition: 0.3s;
+} */    
+.vertical-menu a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 17px;
+    width: 0;
+    bottom: 10px;
+    background: white;
+    height: 4px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.vertical-menu a:hover:after,
+.vertical-menu a:focus:after,
+.vertical-menu a:active:after {
+    width: 150%;
+}
+
+
+.profile {
+    display: block;
+    width: 120px;
+    margin-left: 90%;
+    margin-top: 10%;
+} 
