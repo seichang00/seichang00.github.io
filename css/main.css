@@ -155,7 +155,7 @@ body, html {
   .stat .label{
     display: block;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 50px;
     letter-spacing: 1px;
     color: #3F2A2A;
@@ -167,6 +167,7 @@ body, html {
       font-size: 0.3em;
       vertical-align: 28px;
       text-transform: lowercase;
+      font-weight: 900;
   }
   
   .stat .value{
@@ -175,7 +176,7 @@ body, html {
     font-size: 18px;
     margin-top: 5px;
     font-family: 'Exo 2', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 
   }
 
@@ -207,6 +208,21 @@ nav.header {
     background-color: #024aaf;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+}
+
+.homelink {
+    position: relative;
+    width:220px;
+    height:20px;
+    margin-top: -5px;
+    padding: 1px 3px 3px 3px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    margin-right: -20px;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1em
 }
 
 nav.header ul {
@@ -268,9 +284,14 @@ nav.header ul li a {
 .vertical-menu a:hover:after,
 .vertical-menu a:focus:after,
 .vertical-menu a:active:after {
-    width: 150%;
+    width: 140%;
 }
 
+.vertical-menu a.bloglink:hover:after,
+.vertical-menu a.bloglink:focus:after,
+.vertical-menu a.bloglink:active:after {
+    width: 70%;
+}
 
 .profile {
     display: block;
@@ -278,3 +299,9 @@ nav.header ul li a {
     margin-left: 90%;
     margin-top: 10%;
 } 
+
+
+@media only screen and (min-width: 768px) {
+    
+}
+
