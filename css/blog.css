@@ -2,12 +2,12 @@
     background-image: url(images/blog-back.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .blog-header {
     color: black;
     padding-top: -50%;
-    font-family: 'Roboto', sans-serif;
 }
 
 .blog-container {
@@ -20,8 +20,8 @@
 
 .blog-entry {
     border: 1px solid black;
-    border-radius: 50px;
-    font-family: 'Roboto', sans-serif;
+    /* border-radius: 10px; */
+    /* font-family: 'Roboto', sans-serif; */
     padding: 20px;
     width: 95%;
     text-align: center;
@@ -51,5 +51,5 @@
 
 .blog-entry p {
     color: #555;
-    font-weight: lighter;
+    font-weight: normal;
 }
