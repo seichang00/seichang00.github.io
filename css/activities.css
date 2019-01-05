@@ -11,6 +11,25 @@
     font-family: 'Exo 2', sans-serif;
 }
 
+#activities ul{
+    list-style-position: outside;
+}
+
+#activities h2{
+    position: relative;
+    color: #024aaf;
+    font-weight: bold;
+    margin-bottom: -1em;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    top: 5%;
+    font-size: 4em;
+    letter-spacing: 0.5em;
+    right: -0.25;
+    text-align: center
+}
+
+
 .activity_content .icon{
     width: 200px;
     height: 200px;

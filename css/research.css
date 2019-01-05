@@ -1,7 +1,7 @@
 #research .title{
     position: absolute;
     
-    font-size: 6em;
+    font-size: 5em;
     color: #2A5A9C;
     /* text-shadow: -1px 0 #024aaf, 0 3px #024aaf, 3px 0 #024aaf, 0 -3px #024aaf; */
     /* text-shadow: -3px -3px #024aaf; */
@@ -31,7 +31,7 @@
     display: inline-block;
     border: 5px solid #002C6A;
     width: 400px;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-right: 50px;
     height: 87%;
     background: white;
