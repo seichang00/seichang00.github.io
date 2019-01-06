@@ -134,7 +134,7 @@ body, html {
     background-size: cover;
     padding-left: 80px;
     margin-left: -80px;
-    margin-top: 25px;
+    margin-top: 3vh;
 }
 
 .stats{
@@ -247,7 +247,7 @@ nav.header ul li a {
     width: 110px; /* Set a width if you like */
     z-index: 2;
     position: absolute;
-    margin-top: 30%;
+    margin-top: 63vh;
 }
 
 .vertical-menu a {
@@ -259,7 +259,9 @@ nav.header ul li a {
     font-weight: normal;
     letter-spacing: 1px;
     display: block; /* Make the links appear below each other */
-    padding: 18px; /* Add some padding */
+    padding-left: 18px; /* Add some padding */
+    
+    padding-bottom: 1em;
     text-decoration: none; /* Remove underline from links */
     position: relative;
     text-transform: lowercase;  
@@ -272,9 +274,9 @@ nav.header ul li a {
     content: "";
     position: absolute;
     z-index: -1;
-    left: 17px;
+    left: 18px;
     width: 0;
-    bottom: 10px;
+    bottom: .5em;
     background: white;
     height: 4px;
     transition-property: width;

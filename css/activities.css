@@ -1,5 +1,5 @@
 .activity_content{
-    margin-top: 10%;
+    margin-top: 16vh;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     font-size: 1em;
@@ -20,6 +20,7 @@
 }
 
 #activities h2{
+    margin-top: 1vh;
     position: relative;
     color: #024aaf;
     font-weight: bold;

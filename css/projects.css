@@ -4,7 +4,7 @@
 	position: relative;
 	font-family: 'Lato', sans-serif;
 	width: 100%;
-	top: 5%;
+	top: 1%;
 	font-size: 3.5em;
 	letter-spacing: 0.7em;
 	right: -0.5em;
@@ -13,11 +13,11 @@
 
 .container2{
 		margin: 0 auto;
-		margin-top: 110px;
+		margin-top: 3.5%;
 		position: relative;
 		width: 70%;
 		height: 0;
-		padding-bottom: 31%;
+		padding-bottom: 60vh;
 	    /* user-select: none; */
 		background-color: #002C6A;
 		border-radius:10px ; 
@@ -26,7 +26,7 @@
 	.container2 .slide_img{
 		position: absolute;
 		width: 100%;;
-		height: 100%;
+		height: 90%;
     }
     
     .container2 .slide_img .slide-media{
@@ -64,11 +64,14 @@
     }
 
     .container2 .description p{
-        padding: 8%;
+		padding: 8%;
+		padding-bottom: 0;
         line-height: 1.5;
 	}
 
 	.container2 .description h3{
+		position: relative;
+		padding-top: 4%;
 		text-align: center;
 	}
 
@@ -135,7 +138,7 @@
 }
 
 #nav_slide .dots{
-	top: 130px;
+	top: 5em;
 	width: 18px;
 	height: 18px;
 	margin: 0 4px;
