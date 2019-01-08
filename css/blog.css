@@ -51,13 +51,7 @@
     font-weight: normal;
 } */
 
-.item1{grid-area: entry1; background-image: url(images/macbook.png); background-size: 100% 100%;
-    
-}
-
-.item2:hover{
-    border: solid 3px rgb(33, 95, 196);
-}
+.item1{grid-area: entry1; background-image: url(images/macbook.png); background-size: 100% 100%;}
 
 .item2{grid-area: entry2; background-color: white;}
 .item3{grid-area: entry3; background-color: #fce5cdff;}
@@ -66,10 +60,20 @@
 .item6{grid-area: entry6; background-color: white;}
 .item7{grid-area: entry7; background-color: white;}
 
-.item2:hover > div{
-    margin-left: -3px;
-    margin-top: -3px;
-}
+.item2:hover{border: solid 3px rgb(33, 95, 196);}
+.item3:hover{border: solid 3px rgb(33, 95, 196);}
+.item4:hover{border: solid 3px rgb(33, 95, 196);}
+.item5:hover{border: solid 3px rgb(33, 95, 196);}
+.item6:hover{border: solid 3px rgb(33, 95, 196);}
+.item7:hover{border: solid 3px rgb(33, 95, 196);}
+
+.item2:hover > div{margin-left: -3px;margin-top: -3px;}
+.item3:hover > div{margin-left: -3px;margin-top: -3px;}
+.item4:hover > div{margin-left: -3px;margin-top: -3px;height: calc(50%-3px)}
+.item5:hover > div{margin-left: -3px;margin-top: -3px;}
+.item6:hover > div{margin-left: -3px;margin-top: -3px;}
+.item7:hover > div{margin-left: -3px;margin-top: -3px;}
+
 
 #newblog{
     background-color: #eee;
@@ -136,6 +140,13 @@
     transition: 0.3s;
 }
 
+#newblog .normalcover{
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
 #newblog .blog-container{
     float: left;
     display: grid;
@@ -159,7 +170,7 @@
         'entry4 entry5 entry5'
         'entry6 entry6 entry7';
     grid-template-rows: 17vw 23vw;
-    grid-template-columns: 15vw 5vw 20vw;
+    grid-template-columns: 18vw 3vw 19vw;
     grid-gap: 10px;
     width: 45vw;
     height: 45vw;
