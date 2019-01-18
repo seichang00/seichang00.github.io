@@ -7,13 +7,14 @@
     /* text-shadow: -3px -3px #024aaf; */
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     left:2%;
     top: 8%;
     writing-mode: tb-rl;
     bottom: auto;
     z-index: 900;
     transform: scale(-1,-1);
+    user-select: none;
 }
 
 .scrolling_container{
@@ -119,6 +120,7 @@
     padding: 2em, 2em;
     background-color: white;
     border: 4px solid #002C6A;
+    color: #002C6A;
     font-size: 1.5em;
     text-align: center;
     margin-top: 65%;

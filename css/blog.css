@@ -1,58 +1,18 @@
-/* #blog {
-    background-image: url(images/blog-back.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-family: 'Exo 2', sans-serif;
+
+#newblog .title{
+    grid-area: title;
+    background-color: #ead1dcff;
+    writing-mode: tb-rl;
+    color: #2A5A9C;
+    font-weight: 900;
+    font-size: 5vw;
+    letter-spacing: 0.2em;
+    line-height: 7vw;
+    text-indent: 0.7em;
+    user-select: none;
+    transform: scale(-1,-1);
 }
-
-.blog-header {
-    color: black;
-    padding-top: -50%;
-}
-
-.blog-container {
-    display: grid;
-    padding-right: 10%;
-    grid-template-columns: auto auto;
-    grid-gap: 50px 30px;
-    padding-left: 10%;
-}
-
-.blog-entry {
-    border: 1px solid black;s
-    padding: 20px;
-    width: 95%;
-    text-align: center;
-    background-color: white;
-
-    -webkit-transition:  -webkit-transform .2s ease-out;
-    -moz-transition: -moz-transform .2s ease-out;
-    -o-transition: -o-transform .2s ease-out;
-    -ms-transition: -ms-transform .2s ease-out; 
-    transition: transform .2s ease-out;
-}
-
-.blog-entry:hover {
-    -webkit-transform:scale(1.04);
-    -moz-transform:scale(1.04);
-    -o-transform:scale(1.04);
-    transform:scale(1.04);
-}
-
-
-.blog-entry h2 {
-    font-size: 2em;
-    letter-spacing: -0.01em;
-    color: black;
-}
-
-.blog-entry p {
-    color: #555;
-    font-weight: normal;
-} */
-
 .item1{grid-area: entry1; background-image: url(images/macbook.png); background-size: 100% 100%;}
-
 .item2{grid-area: entry2; background-color: white;}
 .item3{grid-area: entry3; background-color: #fce5cdff;}
 .item4{grid-area: entry4; background-color: #9fc5e8ff;}
@@ -76,7 +36,7 @@
 
 
 #newblog{
-    background-color: #eee;
+    background-color: #f3f3f3ff;
     font-family: 'Lato', sans-serif;
 }
 
@@ -118,7 +78,7 @@
 
 #newblog h3{
     color: white;
-    font-weight: 400;
+    font-weight: normal;
     user-select: none;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -148,23 +108,20 @@
 }
 
 #newblog .blog-container{
-    float: left;
+    grid-area: grid1;
     display: grid;
     grid-template-areas: 
-        'entry1 entry1'
-        'entry2 entry3';
+        'title entry1 entry1'
+        'title entry2 entry3';
     grid-gap: 10px;
     grid-template-rows: 20vw 20vw;
-    grid-template-columns: calc(45vw/2) calc(45vw/2);
+    grid-template-columns: 7vw calc(45vw/2) calc(45vw/2);
     width: 45vw;
     height: 40vw;
-    padding-left: 5vw;
-    padding-right: 0;
 }
-
+/* MAYBE ATTEMPT NESTED GRID */
 #newblog .blog-container2{
-    position: relative;
-    left: 30px;
+    grid-area: grid2;
     display: grid;
     grid-template-areas: 
         'entry4 entry5 entry5'
@@ -173,7 +130,17 @@
     grid-template-columns: 18vw 3vw 19vw;
     grid-gap: 10px;
     width: 45vw;
-    height: 45vw;
-    padding-right: 2vw;
+    height: 40vw;
+}
+
+#newblog .blog-grid{
+    float: left;
+    margin-top: -4em;
+    display: grid;
+    margin-left: 2.5vw;
+    grid-template-areas: 'grid1 grid2';
+    grid-gap: 15px;
+    grid-template-columns: 53vw 47vw;
+    grid-template-rows: 40vw;
 }
 

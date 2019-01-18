@@ -193,6 +193,17 @@ nav.header {
     z-index: 3;
 }
 
+.header h5{
+    position: absolute;
+    margin-left: 20px;
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 50px;
+    margin-top: 0px;
+    font-family: 'Exo 2', sans-serif;
+}
+
 .download {
     width:220px;
     height:20px;
