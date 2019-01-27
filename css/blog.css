@@ -13,15 +13,15 @@
 }
 .item1{grid-area: entry1; background-image: url(images/macbook.png); background-size: 100% 100%}
 .item2{grid-area: entry2; background-color: white;}
-.item3{grid-area: entry3; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/qatar.jpg); background-position: center; background-size: 120% 100%;}
-.item4{grid-area: entry4; background-image: url(images/europe.jpg); background-size: 100% 100%; background-color:blue/*background-color: #9fc5e8ff;*/}
+.item3{grid-area: entry3; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/qatar.jpg); background-position: center; background-size: 120% 100%; transition: 0.5s}
+.item4{grid-area: entry4; background-image: url(images/europe.jpg); background-size: 100% 100%; background-position: center; transition: 0.5s}
 .item5{grid-area: entry5; background-color: #6d9eebff;}
 .item6{grid-area: entry6; background-color: #d0e0e3ff;}
 .item7{grid-area: entry7; background-color: white;}
 
 .item2:hover{border: solid 3px rgb(33, 95, 196);}
-.item3:hover{border: solid 3px rgb(33, 95, 196); background-size: calc(130% + 7px) calc(110% + 7px); transition-property: background-size; transition-duration: 1s;}
-.item4:hover{border: solid 3px rgb(33, 95, 196); background-size: calc(100% + 7px) calc(100% + 7px); background-position: -3px -3px}
+.item3:hover{border: solid 3px rgb(33, 95, 196); background-size: calc(130% + 7px) calc(110% + 7px); transition-property: background-size}
+.item4:hover{border: solid 3px rgb(33, 95, 196); background-size: calc(110% + 7px) calc(110% + 7px); transition-property: background-size}
 .item5:hover{border: solid 3px rgb(33, 95, 196);}
 .item6:hover{border: solid 3px rgb(33, 95, 196);}
 .item7:hover{border: solid 3px rgb(33, 95, 196);}
@@ -33,6 +33,9 @@
 .item6:hover #six{margin-left: -3px;margin-top: -3px; width: calc(100% + 6px)}
 .item7:hover #seven{margin-left: -3px;margin-top: -3px; width: calc(100% + 6px)}
 
+#newblog a{
+    text-decoration:none;
+}
 
 #newblog{
     background-color: #f3f3f3ff;
