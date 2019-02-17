@@ -1,6 +1,6 @@
 #newblog .title{
     grid-area: title;
-    background-color: #ead1dcff;
+    background-color: rgb(234, 209, 220);
     writing-mode: tb-rl;
     color: #2A5A9C;
     font-weight: 900;
@@ -11,12 +11,12 @@
     user-select: none;
     transform: scale(-1,-1);
 }
-.item1{grid-area: entry1; background-image: url(images/macbook.jpg); background-size: 100% 100%}
+.item1{grid-area: entry1; background-image: url(images/things.png); background-size: 100% 100%}
 .item2{grid-area: entry2; background-color: white;}
 .item3{grid-area: entry3; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/qatar.jpg); background-position: center; background-size: 120% 100%; transition: 0.5s}
 .item4{grid-area: entry4; background-image: url(images/europe.jpg); background-size: 100% 100%; background-position: center; transition: 0.5s}
-.item5{grid-area: entry5; background-color: #6d9eebff;}
-.item6{grid-area: entry6; background-color: #d0e0e3ff;}
+.item5{grid-area: entry5; background-color: rgb(164, 194, 244)}
+.item6{grid-area: entry6; background-color: rgb(208, 224, 227);}
 .item7{grid-area: entry7; background-color: white;}
 
 .item2:hover{border: solid 3px rgb(33, 95, 196);}
@@ -38,7 +38,7 @@
 }
 
 #newblog{
-    background-color: #f3f3f3ff;
+    background-color: rgb(243, 243, 243);
     font-family: 'Lato', sans-serif;
 }
 
@@ -91,14 +91,14 @@
 #newblog .cover{
     /* position: absolute; */
     top:0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
 #newblog .cover:hover{
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.34);
     transition: 0.3s;
 }
 
