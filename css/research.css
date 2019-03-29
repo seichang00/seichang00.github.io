@@ -81,7 +81,6 @@
 .hover_content{
     display: block;
     position: absolute;
-    width: 401px;
     height: 69.7%;
     bottom: 0;
     background:rgba(0, 0, 0, 0.7);
@@ -93,7 +92,6 @@
 
 .hover_content p{
     position: absolute;
-    font-size: 1.2em;
     padding: 1em;
     white-space: normal;
     font-family: 'Exo 2', sans-serif;
@@ -104,7 +102,7 @@
 }
 
 .hover_content button{
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
     display: block;
     font-family: 'Exo 2', sans-serif;
@@ -114,8 +112,8 @@
     color: #002C6A;
     font-size: 1.5em;
     text-align: center;
-    margin-top: 65%;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     height: 50px;
     transform: scale(1.2);
@@ -173,6 +171,18 @@
     .card .card_shadow{
         width: 310px;
     }
+
+    .hover_content{
+        width: 301px;
+    }
+
+    .hover_content p{
+        font-size: 1em;
+    }
+
+    .hover_content button{
+        margin-top: 70%;
+    }
 }
 
 @media screen and (min-width:600px){
@@ -183,6 +193,7 @@
         top: 8%;
         writing-mode: tb-rl;
         transform: scale(-1,-1);
+        width: 1em;
     }
 
     .scrolling_container{
@@ -197,8 +208,18 @@
         width: 401px;
     }
 
+    .hover_content{
+        width: 401px;
+    }
     .card .card_shadow{
         width: 400px;
+    }
+    .hover_content p{
+        font-size: 1.2em;
+    }
+
+    .hover_content button{
+        margin-top: 65%;
     }
 }
 /* 
