@@ -5,9 +5,6 @@
 	font-family: 'Lato', sans-serif;
 	width: 100%;
 	top: 1%;
-	font-size: 3.5em;
-	letter-spacing: 0.7em;
-	right: -0.5em;
 	text-align: center
 }
 
@@ -15,17 +12,17 @@
 		margin: 0 auto;
 		margin-top: 3.5%;
 		position: relative;
-		width: 70%;
-		height: 0;
+		width: 80%;
+		height: fit-content;
 		padding-bottom: 60vh;
 	    /* user-select: none; */
 		background-color: #002C6A;
-		border-radius:10px ; 
+		border-radius: 10px; 
 	}
 
 	.container2 .slide_img{
 		position: absolute;
-		width: 100%;;
+		width: 100%;
 		height: 90%;
     }
     
@@ -39,13 +36,12 @@
 
     .container2 .slide_img .title{
         position: relative;
-        width: 50%;
+        /* width: 50%; */
         height: 30%;
         margin-top: 0%;
-        left:50%;
+        left: 50%;
         right: 0;
         background-color: #7CAFE9;
-        font-size: 1.9vw;
         font-family: 'Exo 2',sans-serif;
 		text-align: center;
 		line-height: 15vh;
@@ -61,7 +57,6 @@
     .container2 .description{
         color: black;
         font-family: 'Exo 2',sans-serif;
-        font-size: 1.2vw;
     }
 
     .container2 .description p{
@@ -78,7 +73,6 @@
 
     .container2 .slide_img .description{
         position: absolute;
-        width: 50%;
         height: 68%;
         right: 0;
         bottom: 0;
@@ -228,3 +222,54 @@
 	.me{ display: none;}
 }
 
+@media screen and (min-width:300px){
+	#projects h2{
+		font-size: 3em;
+		letter-spacing: 0.24em;
+	}
+	.container2 .slide_img .slide-media{
+		/* width: 0; */
+		height: 30%;
+	}
+
+	.title{
+		font-size: 15px;
+	}
+
+	.container2 .description{
+		font-size: 14px;
+	}
+
+	.container2 .slide_img .title{
+		/* width: 100%;	 */
+		width: 50%;
+	}
+
+	.container2 .description{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:1000px){
+	#projects h2{
+		font-size: 3.5em;
+		letter-spacing: 0.7em;
+	}
+
+	.container2 .description{
+		width: 50%;
+		font-size: 1.2vw;
+	}
+	.container2 .slide_img .title{
+		width: 50%;
+	}
+
+	.container2 .slide_img .slide-media{
+		/* width: 0; */
+		height: 100%;
+	}
+
+	.title{
+		font-size: 1.6vw;
+	}
+}
