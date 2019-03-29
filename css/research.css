@@ -1,19 +1,12 @@
 #research .title{
     position: absolute;
-    
-    font-size: 4.3em;
     color: #2A5A9C;
     /* text-shadow: -1px 0 #024aaf, 0 3px #024aaf, 3px 0 #024aaf, 0 -3px #024aaf; */
     /* text-shadow: -3px -3px #024aaf; */
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    letter-spacing: 0.2em;
-    left:2%;
-    top: 8%;
-    writing-mode: tb-rl;
     bottom: auto;
     z-index: 900;
-    transform: scale(-1,-1);
     user-select: none;
 }
 
@@ -24,15 +17,13 @@
     white-space: nowrap;
     width: 90%;
     height: 80%;
-    margin-left: 170px;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
 }
 
 .scrolling_container .card{
     position: relative;
     display: inline-block;
     border: 5px solid #002C6A;
-    width: 400px;
     margin-top: 1%;
     margin-right: 50px;
     height: 87%;
@@ -51,7 +42,6 @@
 
 .paper_title{
     position: absolute;
-    width: 401px;
     display: block;
     background: #2A5A9C;
     border-bottom: 5px solid #002C6A;
@@ -156,6 +146,60 @@
     color: white;
 }
 
+
+@media screen and (min-width:200px){
+    #research .title{
+        font-size: 3.4em;
+        letter-spacing: 0.1em;
+        top: 1%;
+        writing-mode: horizontal-tb;
+        width: 100%;
+        text-align: center;
+    }
+
+    .scrolling_container{
+        left: 5%;
+        margin-top: 10%;
+    }
+    .scrolling_container .card{
+        width: 300px;
+    }
+
+    .paper_title{
+        width: 301px;
+    }
+
+    .card .card_shadow{
+        width: 310px;
+    }
+}
+
+@media screen and (min-width:600px){
+    #research .title{
+        font-size: 4.3em;
+        letter-spacing: 0.2em;
+        left:2%;
+        top: 8%;
+        writing-mode: tb-rl;
+        transform: scale(-1,-1);
+    }
+
+    .scrolling_container{
+        margin-left: 100px;
+        margin-top: 0;
+    }
+
+    .scrolling_container .card{
+        width: 400px;
+    }
+    .paper_title{
+        width: 401px;
+    }
+
+    .card .card_shadow{
+        width: 400px;
+    }
+}
 /* 
 .scrolling_container::-webkit-scrollbar{
     display: none;
