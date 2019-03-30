@@ -7,6 +7,9 @@ body, html {
     color: white;
 }
 
+.fp-tableCell{
+    overflow: hidden;
+}
 
 #wallpaper {
     display: block;
@@ -194,7 +197,8 @@ body, html {
 nav.header {
     background: #002C6A;
     height: 50px;
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 3;
 }
 
@@ -410,7 +414,13 @@ nav.header ul li a {
 
 @media (min-width: 700px) {
     #nameTop{
-        margin-top: 30px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px){
+    .header{
+        position: relative;
     }
 }
 
