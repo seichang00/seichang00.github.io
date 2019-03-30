@@ -364,10 +364,12 @@ new fullpage('#fullpage', {
     responsiveWidth: 768
 });
 
-//methods
-fullpage_api.setAllowScrolling(true);
-fullpage_api.setAutoScrolling(true);
-fullpage_api.scrollOverflow(true);
+// //methods
+// fullpage_api.setAllowScrolling(true);
+// fullpage_api.setAutoScrolling(true);
+// fullpage_api.scrollOverflow(true);
+
+if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
 </script>
 </body>
 </html>
