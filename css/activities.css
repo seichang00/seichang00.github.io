@@ -8,6 +8,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vh;
+    -webkit-overflow-scrolling: touch;
 }
 
 .activity_content{

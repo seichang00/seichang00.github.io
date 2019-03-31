@@ -361,7 +361,7 @@ new fullpage('#fullpage', {
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
 	autoScrolling: true,
     scrollHorizontally: true,
-    responsiveWidth: 768
+    normalScrollElements: '#research .scrolling_container, #activities .scroll_container',
 });
 
 // //methods
@@ -369,7 +369,8 @@ new fullpage('#fullpage', {
 // fullpage_api.setAutoScrolling(true);
 // fullpage_api.scrollOverflow(true);
 
-if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
+// if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
+
 </script>
 </body>
 </html>

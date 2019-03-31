@@ -21,6 +21,7 @@ body, html {
 }
 
 #left {
+    /* position: fixed; */
     position: fixed;
     top:0;
     /* min-width: 40%; */
@@ -197,7 +198,8 @@ body, html {
 nav.header {
     background: #002C6A;
     height: 50px;
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     width: 100%;
     z-index: 3;
 }
@@ -326,7 +328,7 @@ nav.header ul li a {
 } 
 
 #nameTop{
-    margin-top: -40px;
+    margin-top: -100px;
     font-size: 8.5em;
     letter-spacing: 8px;
     user-select: none;
