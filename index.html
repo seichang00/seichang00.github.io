@@ -21,16 +21,23 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/research.css">
     <link rel="stylesheet" href="css/activities.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
 </head>
 <body>
     <!-- NAVIGATION -->
     <nav class="header">
         <h5><a href="https://github.com/seichang00/seichang00.github.io" style="text-decoration:none;color:white;" 
-            target="_blank">Built with HTML/CSS/JS</a> 
+            target="_blank" id="git">Built with HTML/CSS/JS</a> 
         </h5>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="burger-button">
+            <i class="fas fa-bars"></i>
+        </label>
+
         <ul>
-            <li><a href="#Home">
+            <li><a href="#Home" id="home_button">
                 <img src="css/images/home.png" alt="home" style="width:33px;height:33px; margin-top: -7px; left: 0">
             </a></li>
             <li><a href="https://drive.google.com/file/d/1ontXiaiintW7m1ATkBEBugr57NOI9a4V/view" target="_blank">
@@ -38,9 +45,20 @@
                     Download resume
                 </div>
             </a></li>
-            
+        </ul>
+
+        <ul class="burger-menu">
+            <a href="#Home"         onclick="return clickBox();" style="background-color:#0b5394;">Home</a>
+            <a href="#Projects"     onclick="return clickBox();" style="background-color:#002C6A;">Projects</a>
+            <a href="#Research"     onclick="return clickBox();" style="background-color:#0b5394;">Research</a>
+            <a href="#Activities"   onclick="return clickBox();" style="background-color:#002C6A;">Activities</a>
+            <a href="#Blog"         onclick="return clickBox();" style="background-color:#0b5394;">Blog</a>
+            <label for="check" class="hide-burger">
+                <i class="fas fa-times"></i>
+            </label>
         </ul>
     </nav>
+
 
     <div id = "fullpage">
         
@@ -215,7 +233,7 @@
             </div>
         </div>
 
-        <div class="section" id="activities" data-anchor="Activities">
+        <div class="section" id="activities" style="background-color:rgb(233, 243, 255);" data-anchor="Activities">
             <div style="width:100%;height:100%">
                 <h2>ACTIVITIES</h2>
                 <div class="scroll_container">
@@ -361,15 +379,19 @@ new fullpage('#fullpage', {
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
 	autoScrolling: true,
     scrollHorizontally: true,
-    normalScrollElements: '#research .scrolling_container, #activities .scroll_container',
+    responsiveWidth: 768,
 });
+
+function clickBox(){
+    document.getElementById("check").click();
+}
 
 // //methods
 // fullpage_api.setAllowScrolling(true);
 // fullpage_api.setAutoScrolling(true);
 // fullpage_api.scrollOverflow(true);
 
-// if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
+if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
 
 </script>
 </body>

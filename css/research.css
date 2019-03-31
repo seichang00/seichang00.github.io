@@ -154,11 +154,12 @@
         writing-mode: horizontal-tb;
         width: 100%;
         text-align: center;
+        margin-top: 60px;
     }
 
     .scrolling_container{
         left: 5%;
-        margin-top: 10%;
+        margin-top: 40%;
     }
     .scrolling_container .card{
         width: 300px;

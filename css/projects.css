@@ -224,6 +224,7 @@
 
 @media screen and (min-width:300px){
 	#projects h2{
+		margin-top: 90px;
 		font-size: 3em;
 		letter-spacing: 0.24em;
 	}
