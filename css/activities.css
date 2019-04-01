@@ -4,7 +4,7 @@
     max-width: 1100px;
     overflow-x: auto;
     overflow: scroll;
-    overflow-y: visible;
+    overflow-y: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vh;
@@ -99,6 +99,10 @@
 
     .activity_content{
         margin-left: 16px;
+    }
+
+    #activities .scroll_container{
+        overflow-y: hidden;
     }
     
 }

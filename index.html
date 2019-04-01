@@ -14,14 +14,16 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="jquery-3.3.1.min.js"></script>
+    <script src="scrolloverflow.min.js"></script>
     <script src="fullpage.js"></script>
-    <script src="scrolloverflow.js"></script>
     <link rel="stylesheet" href="fullpage.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/research.css">
     <link rel="stylesheet" href="css/activities.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/newblog.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 
 </head>
 <body>
@@ -52,7 +54,7 @@
             <a href="#Projects"     onclick="return clickBox();" style="background-color:#03396c;">Projects</a>
             <a href="#Research"     onclick="return clickBox();" style="background-color:#005b96;">Research</a>
             <a href="#Activities"   onclick="return clickBox();" style="background-color:#6497b1;">Activities</a>
-            <a href="#Blog"         onclick="return clickBox();" style="background-color:#b3cde0;">Blog</a>
+            <a href="#Blog-Test"    onclick="return clickBox();" style="background-color:#b3cde0;">Blog</a>
             <label for="check" class="hide-burger">
                 <i class="fas fa-times"></i>
             </label>
@@ -296,7 +298,7 @@
             </div>
             
         </div>
-
+<!-- 
         <div class="section" id="newblog" data-anchor="Blog">
             <div class = "blog-grid">
                 <div class="blog-container">
@@ -363,7 +365,59 @@
                 </div>
             </div>
         </div>
-<!-- 
+ -->
+        <div class="section" id="blogtest" data-anchor = "Blog-Test">
+            <div class="newblog-container">
+            <main class="main">
+                <section class="info1" id="blog-title">
+                <h2>My Blog</h2>
+                    <p>Updates along the way, some reflections on the experiences that make me who I am today.</p>
+                </section>
+                
+                <section class="pic" id="item1" style="background-image:url(css/images/things.png); color:white;" >
+                    <a href="https://youtu.be/gWP7B0Crd-E" target="_blank"><h2>Things Fall Apart Analysis</h2></a>
+                    <h3>Literary Analysis in Video Format</h3>
+                    <p>Witnessing the societal and cultural effects of the Cold War on Eastern Europe (while enjoying some escape rooms).</p>
+                </section>
+                <section class="pic" id="item2" style="background-image:url(css/images/europe.jpg); color:white;">
+                    <a href="https://photos.google.com/share/AF1QipNOU8SfpHEY0cdEc_XSgDLCLMmMeo8z-CVslnsciJXo3_B0SZqONjs6e1a6eqXKFg?key=Wm15QnlOUjlkdHI5NG81dkdMYlpNUnUxeFl6ZElB" target="_blank">
+                        <h2>Backpacking in Eastern Europe</h2>
+                    </a>
+                    <p>Witnessing the societal and cultural effects of the Cold War on Eastern Europe (while enjoying some escape rooms).</p>
+                </section>
+                <section class="info1" id="item3" style="background-color:rgb(164, 194, 244);">
+                        <a href="https://www.youtube.com/watch?v=TzZnuKRjxwc" target="_blank">
+                            <h2 style="color:#0b5394;">Miral Welfare Foundation</h2></a>
+                        <h3 style="color:black">Wing Cello Ensemble with Pathway String Quintet</h3>
+                        <p style="color:black;">An inspiration for my passion for assistive technologies</p>
+                    </section>
+                <section class="info1" id="item4" style="background-color:white; color:#980000;">
+                        <a href="https://drive.google.com/file/d/16K1fOq_X0Lb6f9UEj7xli0ff91AgTkPZ/view" target="_blank"><h2>A Clean, Well-Lighted Place</h2></a>
+                    <h3>Comparative Literary Analysis</h3>
+                    <p style="color:black;">The Dread of Approaching the Meaningless End: analyzing Hemingway's exploration of nihilism.</p>
+                </section>
+                <section class="pic" id="item5" style="background-image: url(css/images/qatar.jpg); color:white;">
+                    <a href="http://qatar.thimun.org/wp-content/uploads/2017/05/SC_DPRK_Chang.pdf" target="_blank"><h2>THIMUN Qatar 2018</h2></a>
+                    <h3>The Security Council</h3>
+                    <p>Traveling to THIMUN for the first time, as President of the Security Council. Resolving the situation in the DPRK on the issue of humanitarian aid and nuclear weapons.</p>
+                </section>
+                
+                <section class="info1" id="item6" style="background-color:rgb(208, 224, 227);">
+                    <a href="http://bit.ly/2zHef6P" target="_blank">
+                    <h2 style="color:#980000;">Transdisciplinary Presentation</h2></a>
+                    <p style="color:#0b5394;">The Physics of Music, the intertwining of my passions</p>
+                </section>
+                <section class="info1" id="item7" style="background-color:white; color:#002C6A;">
+                    <a href="https://drive.google.com/file/d/1KFTuxlG9Bsv5me_JQs-0fR6VL6hu8nSg/view?usp=sharing" target="_blank">
+                    <h2>SEOMUN 2017</h2></a>
+                    <h3 style="color:#980000">The Disarmament Commission</h3>
+                    <p style="color:black;">Preventing the proliferation of weapons of mass destruction in the Middle East</p>
+                </section>
+            </main>
+            </div>
+        </div>
+
+        <!--
         <div class="section" id="sample">
             <div class="scroll-sample" style="overflow:scroll; height: fit-content; width: 90%;">
                 <div class="content" style="background-image: linear-gradient(to right, red , yellow); width:2000px; height: 500px;"></div>
@@ -374,12 +428,20 @@
 
     </div>  
 <script>
+
+var isOverflow = false;
+if($(window).width() >= 768){
+    isOverflow = true;
+}else{
+    isOverflow = false;
+}
 new fullpage('#fullpage', {
 	//options here
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
 	autoScrolling: true,
-    scrollHorizontally: true,
+    // scrollHorizontally: true,
     responsiveWidth: 768,
+    scrollOverflow: isOverflow,
 });
 
 function clickBox(){
@@ -391,7 +453,8 @@ function clickBox(){
 // fullpage_api.setAutoScrolling(true);
 // fullpage_api.scrollOverflow(true);
 
-if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false); }
+// if($(window).width() < 768){ $('#fullpage').setAutoScrolling(false);}
+
 
 </script>
 </body>
