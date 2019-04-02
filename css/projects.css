@@ -222,9 +222,9 @@
 	.me{ display: none;}
 }
 
-@media screen and (min-width:300px){
+@media screen and (max-width:1000px){
 	#projects h2{
-		margin-top: 90px;
+		margin-top: 100px;
 		font-size: 3em;
 		letter-spacing: 0.24em;
 	}

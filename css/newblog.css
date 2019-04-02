@@ -1,28 +1,50 @@
 @media (min-width: 800px) {
     main {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      /* grid-template-columns: repeat(5, minmax(200px, 1fr)); */
-      /* grid-template-rows: repeat(auto-fill, 300px); */
-      /* height: 90vh; */
-      /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+      grid-template-columns: 100px 1fr 1fr 1fr 1fr;
     }
-
     figure, section{
         margin: 3px;
     }
     #blog-title{
         grid-row: span 2;
+        padding: 10px;
+        user-select: none;
+        font-size: 1.6em;
     }
-
+    #blog-title h2{
+        writing-mode: tb-rl;
+        transform: scale(-1,-1);
+        text-transform: uppercase;
+        letter-spacing: 1em;
+        margin: auto;
+    }
     #item1{
         grid-column: span 2;
+    }
+    /* #blogtest h2:hover{
+        color: slateblue;
+    } */
+    #item1 h2:hover, #item2 h2:hover, #item5 h2:hover{
+        color: #bbb;
+    }
+    #item3 h2:hover, #item7 h2:hover{
+        color: #4578a5;
+    }
+    #item4 h2:hover, #item6 h2:hover{
+        color: #ff6600;
     }
 }
 @media (max-width: 800px){
     figure, section{
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    #blog-title h2{
+        letter-spacing: 0.7em;
+        text-align: center;
+        margin: auto;
+        text-transform: uppercase;
     }
 }
 
@@ -45,7 +67,7 @@
   
   .info1, .info2, .pic {
     padding: 40px;
-    background-color: #333;
+    background-color: #0b5394;
     color: white;
   }
   
@@ -62,6 +84,7 @@
       font-weight: 900;
       font-size: 2em;
       width: fit-content;
+      transition: 0.5s;
   }
 
   #blogtest h3 {
@@ -83,8 +106,36 @@
   }
 
 
-/* 
-  .figure1{
-      background-image: url(images/things.png);
-      background-size: cover;
-  } */
+  #item1{
+    background-image: url(images/things.png); 
+    color:white;
+  }
+  #item2{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url(images/europe.jpg);
+    background-size: cover;
+    color:white;
+  }
+  #item3{
+    background-color:rgb(164, 194, 244);
+    color: black;
+  } #item3 h2{
+    color:#0b5394;
+  }
+  #item4{
+    background-color:white; 
+    color:#980000;
+  } #item4 h2{
+      font-size: 1.8em;
+  }
+  #item5{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.4)), url(images/qatar.jpg);
+    background-size: cover; 
+    color:white;
+  }
+  #item6{
+    background-color:rgb(208, 224, 227);
+    color:#980000;
+  }
+  #item7{
+    background-color:white; color:#002C6A;
+  }
