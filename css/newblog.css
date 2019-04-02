@@ -22,10 +22,10 @@
     #item1{
         grid-column: span 2;
     }
-    /* #blogtest h2:hover{
+    #blogtest h2:hover{
         color: slateblue;
-    } */
-    #item1 h2:hover, #item2 h2:hover, #item5 h2:hover{
+    } 
+     #item1 h2:hover, #item2 h2:hover, #item5 h2:hover{
         color: #bbb;
     }
     #item3 h2:hover, #item7 h2:hover{
@@ -34,6 +34,11 @@
     #item4 h2:hover, #item6 h2:hover{
         color: #ff6600;
     }
+    /* .info1:hover, .info2:hover, .pic:hover{
+        border: solid 3px rgb(33, 95, 196);
+        width: calc(1fr - 6px);
+        height: calc(100% - 6px);
+    } */
 }
 @media (max-width: 800px){
     figure, section{
