@@ -23,16 +23,16 @@
         grid-column: span 2;
     }
     #blogtest h2:hover{
-        color: slateblue;
+        color: #ff9900;
     } 
      #item1 h2:hover, #item2 h2:hover, #item5 h2:hover{
-        color: #bbb;
+        color: #ccc;
     }
     #item3 h2:hover, #item7 h2:hover{
         color: #4578a5;
     }
     #item4 h2:hover, #item6 h2:hover{
-        color: #ff6600;
+        color: #ce0000;
     }
     /* .info1:hover, .info2:hover, .pic:hover{
         border: solid 3px rgb(33, 95, 196);
