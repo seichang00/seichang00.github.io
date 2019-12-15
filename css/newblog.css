@@ -25,13 +25,13 @@
     #blogtest h2:hover{
         color: #ff9900;
     } 
-     #item1 h2:hover, #item2 h2:hover, #item5 h2:hover{
+     #item1 h2:hover, #item2 h2:hover, #item5 h2:hover, #item4 h2:hover{
         color: #ccc;
     }
     #item3 h2:hover, #item7 h2:hover{
         color: #4578a5;
     }
-    #item4 h2:hover, #item6 h2:hover{
+    #item6 h2:hover{
         color: #ce0000;
     }
     /* .info1:hover, .info2:hover, .pic:hover{
@@ -112,7 +112,7 @@
 
 
   #item1{
-    background-image: url(images/things.png); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.3)), url(images/graph.png); 
     color:white;
   }
   #item2{
@@ -124,11 +124,13 @@
     background-color:rgb(164, 194, 244);
     color: black;
   } #item3 h2{
-    color:#0b5394;
+    color:#002C6A;
   }
   #item4{
     background-color:white; 
-    color:#980000;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.3)), url(images/things.png);
+    background-size: cover;
   } #item4 h2{
       font-size: 1.8em;
   }
