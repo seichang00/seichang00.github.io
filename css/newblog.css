@@ -1,6 +1,8 @@
 @media (min-width: 800px) {
     main {
       display: grid;
+      margin-top:-5vh;
+      height:80vh;
       grid-template-columns: 100px 1fr 1fr 1fr 1fr;
     }
     figure, section{
