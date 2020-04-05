@@ -27,7 +27,7 @@ body, html {
     /* min-width: 40%; */
     width: auto;
     /* margin-left: -2%; */
-    left: calc(-480px + 30vw);
+    left: calc(-31% + 30vw);
     height: 101.4vh;
     z-index: 1;
     overflow: hidden;
@@ -404,6 +404,8 @@ nav.header ul li a {
     }
     #left{
         visibility: hidden;
+        width:10px;
+        height:10px;
     }
     .numbers{
         padding: 0;
