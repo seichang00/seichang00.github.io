@@ -23,14 +23,13 @@ body, html {
 #left {
     /* position: fixed; */
     position: fixed;
-    top:0;
     /* min-width: 40%; */
     width: auto;
     /* margin-left: -2%; */
-    left: calc(-31% + 30vw);
+    left: calc(-32% + 30vw);
     height: 101.4vh;
     z-index: 1;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .container {
@@ -60,8 +59,19 @@ body, html {
     text-align: center;
     margin-top: 40px;    
     font-weight: 600;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
     color: #5D5555;
+}
+
+.container h3{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #5D5555;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    margin-top: 0;
 }
 
 .container p{
@@ -74,11 +84,11 @@ body, html {
     color: #5D5555;
     line-height: 22px;
     font-size: 1.2em;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .social{
-    margin-top:40px;
+    margin-top:30px;
 }
 .social ul {
     list-style-type: none;
@@ -298,12 +308,12 @@ nav.header ul li a {
     width: 110px; /* Set a width if you like */
     z-index: 2;
     position: absolute;
-    margin-top: 63vh;
+    margin-top: 55vh;
 }
 
 .vertical-menu a {
     display: inline;
-    margin-left: 1.6em;
+    margin-left: 2.4em;
     font-size: 1.4em;
     font-family: 'Exo 2', sans-serif;
     color: white; /* Black text color */
@@ -396,7 +406,7 @@ nav.header ul li a {
         margin-top: 20px;
     }
     .container p{
-        max-width: 1100px;
+        max-width: 600px;
         width: 87%;
         margin: auto;
         font-size: 16px;
@@ -408,7 +418,7 @@ nav.header ul li a {
     }
     .numbers{
         padding: 0;
-        margin:0;
+        margin: 25px 0 0 0;
         height: 90px;
     }
 

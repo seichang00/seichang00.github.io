@@ -63,7 +63,7 @@
 
 
     <div id = "fullpage">
-        <div class="section" id="home" data-anchor="Home">
+        <div class="section" id="home" data-anchor="Home" style="overflow: visible">
             <div class="vertical-menu">
                 <a href="#Projects">projects</a>
                 <a href="#Research">research</a>
@@ -72,14 +72,12 @@
             </div>
             
             <img src = "css/images/background.svg" id="left">
-                
             <div class="container">
                 <h1 id="nameTop">Sei</h1>
                 <h1 id="nameBottom">Chang</h1>
                 <!-- <img src="images/officiallogo.png" alt="logo" class="profile"> -->
-                <h2>Computer Science at UCLA Samueli Engineering</h2>
-                <p>Undergraduate researcher at UCLA Health. Formerly @ Illumina, Yahoo. Developed software for genome sequencing, autonomous fleet management, and auto-remediation.</p>
-                
+                <h2>NSF GRFP FELLOW | CS PHD CANDIDATE <br> @ COLUMBIA ENGINEERING</h2>
+                <h3></h3>
                 <div class="social">
                     <ul>
                         <li><a href="https://medium.com/@seichang00" target="_blank">
@@ -98,6 +96,9 @@
                         
                     </ul>
                 </div>
+                <p>Knowles Lab, New York Genome Center. Computational genetics and machine learning researcher. Bachelor of Science in Computer Science at UCLA Engineering. Previously interned at Parallel Systems, Illumina, Yahoo. Developed software for genome sequencing, autonomous fleet management, and auto-remediation.</p>
+                
+                
                 <div class="numbers">
                     <div class="stats">
                         <div class="stat" style="border-left:0px;">
@@ -121,6 +122,66 @@
                 </div>
 
                 <!-- <a href="#" class="cta">Learn more</a> -->
+            </div>
+            
+        </div>
+
+        <div class="section" id="research" data-anchor="Research">
+            <div class="title">RESEARCH</div>
+
+            <div class="scrolling_container">
+                <div class="card" id="deep">
+                    <div class="paper_title"><h1>A comprehensive benchmarking of WGS-based deletion structural variant callers</h1></div>
+                    <!-- <img src="css/images/deep_learning.svg"> -->
+                    <div class="hover_content">
+                        <p>Bioinformatics research at Mangul Lab USC. In this paper, we investigate the ability of computational methods to detect deletions, thus providing an optimistic estimate of SV detection performance as the SV detection methods that fail to detect deletions are likely to miss more complex SVs. </p>
+                        <a href="https://doi.org/10.1093/bib/bbac221" target="n_blank" style="text-decoration:none"><button>VIEW ONLINE</button></a>
+                    </div>
+                    <div class="image" style="background-image:url(css/images/benchmarking.png);background-size: 50%;height:60%;bottom:5%"></div>
+                    <div class="card_shadow"></div>
+                </div>
+                <div class="card" id="deep">
+                    <div class="paper_title"><h1>Benchmarking of computational error-correction methods for NGS data</h1></div>
+                    <!-- <img src="css/images/deep_learning.svg"> -->
+                    <div class="hover_content">
+                        <p>Bioinformatics research at ZarLab UCLA. In this paper, we evaluate the ability of error correction algorithms to fix errors across different types of datasets that contain various levels of heterogeneity and different domains of biology, including immunogenomics and virology. </p>
+                        <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-01988-3" target="n_blank" style="text-decoration:none"><button>VIEW ONLINE</button></a>
+                    </div>
+                    <div class="image" style="background-image:url(css/images/error.png);background-size: 40%;height:50%;bottom:10%"></div>
+                    <div class="card_shadow"></div>
+
+                </div>
+                <div class="card" id="deep">
+                    <div class="paper_title"><h1>Deep Learning-Based Image Segmentation of Focal Adhesions in Cell Migration</h1></div>
+                    <!-- <img src="css/images/deep_learning.svg"> -->
+                    <div class="hover_content">
+                        <p>This research is an independent project conducted under the supervision of Professor Lee from Worcester Polytechnic Institute. 
+                            The objective of this research was to optimize the original vU-net framework for analyzing focal adhesions. </p>
+                        <a href="https://drive.google.com/file/d/1Dn6LbtkFaoV55P5FAVOlBttzE8N6aJlR/view?usp=sharing" target="n_blank" style="text-decoration:none"><button>VIEW PDF</button></a>
+                    </div>
+                    <div class="image" style="background-image:url(css/images/deeplearning.JPG);background-size: 65%;"></div>
+                    <div class="card_shadow"></div>
+                    
+                </div>
+                <div class="card" id="robots">
+                    <div class="paper_title"><h1>Socially Assistive Robots: An Emerging Technology for Treating Autism</h1></div>
+                    <div class="hover_content">
+                        <p>Researched the impact of assistive technologies in our society and how social robots can be key to removing social barriers.
+                            Published to Dartmouth Journal of Science 2018 Winter Edition: pp 33-34</p>
+                        <a href="https://issuu.com/dartmouth_science/docs/winter_2018_print_journal" target="_blank"><button>VIEW PDF</button> </a>
+                    </div>
+                    <div class="image" style="background-image:url(css/images/robot.svg)"></div>
+                    <div class="card_shadow"></div>
+                </div>
+                <div class="card" id="dust">
+                    <div class="paper_title"><h1>An IoT-based Fine Dust Monitoring System</h1></div>
+                    <div class="hover_content">
+                        <p>This research aimed to integrate IoT and device technologies to tackle the environmental problem of fine dust levels for the community. Earlier version published to IEEE MDM Conference 2017.</p>
+                        <a href="https://drive.google.com/file/d/15TwplP7wZeBWB-yT0NKwonLFUhB1r2G8/view?usp=sharing" target="_blank"> <button>VIEW PDF</button> </a>
+                    </div>
+                    <div class="image" style="background-image:url(css/images/finedust.JPG); background-size: 67%"></div>
+                    <div class="card_shadow"></div>
+                </div>
             </div>
         </div>
 
@@ -192,125 +253,57 @@
                 </div>                    
 
             </div>
-            
-            
-        </div>
-
-        <div class="section" id="research" data-anchor="Research">
-            <div class="title">RESEARCH</div>
-
-            <div class="scrolling_container">
-                <div class="card" id="deep">
-                    <div class="paper_title"><h1>Benchmarking of computational error-correction methods for NGS data</h1></div>
-                    <!-- <img src="css/images/deep_learning.svg"> -->
-                    <div class="hover_content">
-                        <p>Bioinformatics research at Mangul Lab USC. In this paper, we evaluate the ability of error correction algorithms to fix errors across different types of datasets that contain various levels of heterogeneity and different domains of biology, including immunogenomics and virology. </p>
-                        <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-01988-3" target="n_blank" style="text-decoration:none"><button>VIEW ONLINE</button></a>
-                    </div>
-                    <div class="image" style="background-image:url(css/images/error.png);background-size: 40%;height:50%;bottom:10%"></div>
-                    <div class="card_shadow"></div>
-
-                </div>
-                <div class="card" id="deep">
-                    <div class="paper_title"><h1>A comprehensive benchmarking of WGS-based structural variant callers</h1></div>
-                    <!-- <img src="css/images/deep_learning.svg"> -->
-                    <div class="hover_content">
-                        <p>Bioinformatics research at ZarLab UCLA. Poster presentation at Bruins in Genomics 2019. Our study investigates the ability of the methods to detect deletions, thus providing an optimistic estimate of SV detection performance. </p>
-                        <a href="https://www.biorxiv.org/content/10.1101/2020.04.16.045120v1" target="n_blank" style="text-decoration:none"><button>VIEW ONLINE</button></a>
-                    </div>
-                    <div class="image" style="background-image:url(css/images/variant.png);background-size: 60%;height:50%;bottom:10%"></div>
-                    <div class="card_shadow"></div>
-
-                </div>
-                <div class="card" id="deep">
-                    <div class="paper_title"><h1>Deep Learning-Based Image Segmentation of Focal Adhesions in Cell Migration</h1></div>
-                    <!-- <img src="css/images/deep_learning.svg"> -->
-                    <div class="hover_content">
-                        <p>This research is an independent project conducted under the supervision of Professor Lee from Worcester Polytechnic Institute. 
-                            The objective of this research was to optimize the original vU-net framework for analyzing focal adhesions. </p>
-                        <a href="https://drive.google.com/file/d/1Dn6LbtkFaoV55P5FAVOlBttzE8N6aJlR/view?usp=sharing" target="n_blank" style="text-decoration:none"><button>VIEW PDF</button></a>
-                    </div>
-                    <div class="image" style="background-image:url(css/images/deeplearning.JPG);background-size: 65%;"></div>
-                    <div class="card_shadow"></div>
-                    
-                </div>
-                <div class="card" id="robots">
-                    <div class="paper_title"><h1>Socially Assistive Robots: An Emerging Technology for Treating Autism</h1></div>
-                    <div class="hover_content">
-                        <p>Researched the impact of assistive technologies in our society and how social robots can be key to removing social barriers.
-                            Published to Dartmouth Journal of Science 2018 Winter Edition: pp 33-34</p>
-                        <a href="https://issuu.com/dartmouth_science/docs/winter_2018_print_journal" target="_blank"><button>VIEW PDF</button> </a>
-                    </div>
-                    <div class="image" style="background-image:url(css/images/robot.svg)"></div>
-                    <div class="card_shadow"></div>
-                </div>
-                <div class="card" id="dust">
-                    <div class="paper_title"><h1>An IoT-based Fine Dust Monitoring System</h1></div>
-                    <div class="hover_content">
-                        <p>This research aimed to integrate IoT and device technologies to tackle the environmental problem of fine dust levels for the community. Earlier version published to IEEE MDM Conference 2017.</p>
-                        <a href="https://drive.google.com/file/d/15TwplP7wZeBWB-yT0NKwonLFUhB1r2G8/view?usp=sharing" target="_blank"> <button>VIEW PDF</button> </a>
-                    </div>
-                    <div class="image" style="background-image:url(css/images/finedust.JPG); background-size: 67%"></div>
-                    <div class="card_shadow"></div>
-                </div>
-            </div>
         </div>
 
         <div class="section" id="activities" style="background-color:rgb(233, 243, 255);" data-anchor="Activities">
             <div style="width:100%;height:100%">
-                <h2>ACTIVITIES</h2>
+                <h2>EXPERIENCE</h2>
                 <div class="scroll_container">
                 <div class="activity_content">
                     <div class="item">
-                        <div class="icon" style="background-image:url(css/images/zarlab.svg)"></div>
+                        <div class="icon" style="background-image:url(css/images/ucla-health.png); background-size: 160%;"></div>
                         <div class="text">
                             <div class="circle"></div>
-                            <h1> ZarLab Research</h1>
+                            <h1> UCLA Health</h1>
                             <ul>
-                                <li><a href="http://www.sergheimangul.com/undegrads-in-genomics/">Bioinformatics Research Assistant</a></li>
-                                <li>Detect DNA structural variations</li>
-                                <li>Manage/Install Dependencies (Bioconda)</li>
-                                <li>Algorithms in Python</li>
+                                <li>Computational Medicine Research Intern</li>
+                                <li>Bioinformatics research at ZarLab, Mangul Lab, and Pimentel Lab</li>
+                                <li><a href="#Research">Co-authored two published research works</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="icon" style="background-image:url(css/images/db-logo.png)"></div>
+                        <div class="icon" style="background-image:url(https://moveparallel.com/wp-content/uploads//2022/01/logo-default-1.svg); background-size: 65%;"></div>
                         <div class="text">
                             <div class="circle"></div>
-                            <h1>The Daily Bruin</h1>
+                            <h1>Parallel Systems</h1>
                             <ul>
-                                <li>Node.js + React frontend</li>
-                                <li>Redesigned dailybruin.com</li>
-                                <li>AWS Backend -w- GraphGL</li>
-                                <li><a href="https://github.com/dailybruin/lux" target="_blank">Lux Design System</a></li>
-                                <li><a href="https://github.com/dailybruin/flamingo" target="_blank">Flamingo React App</a></li>
+                                <li>Developed real-time data processing and multithreaded applications for fleet management in Rust</li>
+                                <li>Integrated serverless AWS vehicle telemetry backend to fleet management data processing in Rust, Bash, SQL</li>
                             </ul>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="icon" style="background-image:url(css/images/crux.jpg)"></div>
+                        <div class="icon" style="background-image:url(https://assets.illumina.com/content/dam/illumina-common/logo/illumina-full_logo-RGB-black.svg)"></div>
                         <div class="text">
                             <div class="circle"></div>
-                            <h1>BCI Developer: CruX </h1>
+                            <h1>Illumina</h1>
                             <ul>
-                                <li>Developed BCI in Python</li>
-                                <li>Integrated smart home ecosystem</li>
-                                <li>User control over appliance </li>
-                                <li><a href="https://www.cruxucla.com/bci-team" target="_blank">CruX UCLA Website</a></li>
+                                <li>Bioinformatics Intern</li>
+                                <li>Implemented data pipeline to map BED regions to flow cell clusters and cycles from real-time analysis (RTA)</li>
+                                <li>Performed unsupervised ML (t-SNE) analysis on primary data using SciKit Learn</li>
                             </ul>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="icon" style="background-image:url(css/images/rose.png)"></div>
+                        <div class="icon" style="background-image:url(https://s.yimg.com/rz/p/yahoo_homepage_en-US_s_f_p_bestfit_homepage_2x.png)"></div>
                         <div class="text">
                             <div class="circle"></div>
-                            <h1>Theta Tau Active</h1>
+                            <h1>Yahoo</h1>
                             <ul>
-                                <li>Active member of Theta Tau</li>
-                                <li>Pledged during Fall 2018</li>
-                                <li>Member of Lambda Class</li>
-                                <li><a href="http://www.thetataubruins.org/" target="_blank">Theta Tau Website</a></li>
+                                <li>Integrated ServiceNow platform to Slack automation</li>
+                                <li>Reduced execution time of auto-remediation, with 80 hours saved per 1000 actions</li>
+                                <li>Presented advantages of conversation-driven ChatOps model to 60+ engineers</li>
                             </ul>
                         </div>
                     </div>                    
