@@ -61,8 +61,6 @@
     width: 100%;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
-
-
   }
 
   .figure-img {
@@ -114,7 +112,8 @@
 
 
   #item1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.3)), url(images/graph.png); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.5)), url(images/grfp.png); 
+    background-position: 0% 40%;
     color:white;
   }
   #item2{
@@ -128,18 +127,20 @@
   } #item3 h2{
     color:#002C6A;
   }
-  #item4{
+  #item5{
     background-color:white; 
     color:white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.3)), url(images/things.png);
     background-size: cover;
-  } #item4 h2{
+  } #item5 h2{
       font-size: 1.8em;
   }
-  #item5{
-    background: linear-gradient(rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.4)), url(images/qatar.jpg);
+  #item4{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.4)), url(images/graph.png);
     background-size: cover; 
     color:white;
+  } #item4 h2{
+    font-size: 1.8em;
   }
   #item6{
     background-color:rgb(208, 224, 227);
