@@ -1,0 +1,12 @@
+# Font style metadata
+name = "Classic"
+
+# Optional Google font URL
+# google_fonts = "family=Libre+Franklin:wght@300;600&family=DM+Sans:wght@300;400;600&family=Noto+Sans+Mono:wght@300"
+google_fonts = "family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Mono:wght@300"
+
+# Font families
+heading_font = "Inter"
+body_font = "Inter"
+nav_font = "Inter"
+mono_font = "Noto Sans Mono"

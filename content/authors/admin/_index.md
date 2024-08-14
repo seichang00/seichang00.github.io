@@ -1,57 +1,61 @@
 ---
 # Display name
-title: 吳健雄
+# Display name
+title: Sei Chang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Sei
+last_name: Chang
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Columbia University
+    url: https://www.cs.columbia.edu/
+  - name: New York Genome Center
+    url: https://www.nygenome.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Machine learning and computational genomics researcher at Columbia University and New York Genome Center.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Deep Learning
+  - Generative Modeling
+  - Single Cell Dynamics
+  - Alternative Splicing
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Science
+      institution: Columbia University
+      year: 2027
+    - course: MS in Computer Science
+      institution: Columbia University
+      year: 2024
+    - course: BS in Computer Science
+      institution: University of California, Los Angeles
+      year: 2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Deep Learning
     items:
-      - name: Python
+      - name: Pytorch
         description: ''
         percent: 80
         icon: python
@@ -93,32 +97,38 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:seichang00@gmail.com'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://x.com/sei_chang
     label: Follow me on Twitter
     display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+      header: false
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=OsuJU40AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/seichang00
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/seichang/
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0003-4610-1280
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+## About Me
+
+I am a Computer Science PhD candidate at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research is partially sponsored by the [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/).
+
+My research focuses on applying deep learning and generative modeling to learn single-cell dynamics and alternative splicing mechanisms in neurodegenerative disease. Using AI methods to derive biological insights from multiomics is an exciting research avenue that will shape the future of health and medicine, and I look forward to continue exploring this unique intersection between machine learning and biology.
