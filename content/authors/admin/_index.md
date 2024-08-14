@@ -129,6 +129,6 @@ highlight_name: true
 
 ## About Me
 
-I am a Computer Science PhD candidate at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research is partially sponsored by the [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/).
+I am a Computer Science PhD candidate at Columbia University advised by [David A. Knowles](https://daklab.github.io/) at the New York Genome Center. My research is funded by the [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/).
 
 My research focuses on applying deep learning and generative modeling to learn single-cell dynamics and alternative splicing mechanisms in neurodegenerative disease. Using AI methods to derive biological insights from multiomics is an exciting research avenue that will shape the future of health and medicine, and I look forward to continue exploring this unique intersection between machine learning and biology.
