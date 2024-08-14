@@ -151,7 +151,7 @@ sections:
           location: Los Angeles, CA
           date_start: '2021-06-01'
           date_end: '2021-09-01'
-          description: Designed algorithms that map instrumented sequencing reads containing quality metrics from [Illumina’s Real Time Analysis (RTA)](https://sapac.illumina.com/informatics/sequencing-data-analysis.html) to annotated genome regions. Performed secondary analysis on read-to-region mappings using dimensionality reduction to identify potential sequencer bias from Illumina flow cell clusters.
+          description: Designed algorithms that map instrumented sequencing reads containing quality metrics from [Illumina’s Real Time Analysis (RTA)](https://sapac.illumina.com/informatics/sequencing-data-analysis.html) to annotated genome regions. Performed secondary analysis on read-to-region mappings using dimensionality reduction to identify sources of potential sequencer bias from Illumina flow cell clusters.
     design:
       columns: '2'
   # - block: collection
