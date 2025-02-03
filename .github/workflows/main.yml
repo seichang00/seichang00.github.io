@@ -66,6 +66,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Debug Available Artifacts
+        run: |
+          echo "Listing available artifacts:"
+          gh run list --limit 5
+          echo "Checking for github-pages artifact..."
+          gh run download --name github-pages --dir artifacts || echo "Artifact not found!"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
