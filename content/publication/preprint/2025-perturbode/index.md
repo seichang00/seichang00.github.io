@@ -1,13 +1,14 @@
 ---
-title: 'CellFlows: Inferring Splicing Kinetics from Latent and Mechanistic Cellular Dynamics'
+title: 'Interpretable Neural ODEs for Gene Regulatory Network Discovery under Perturbations'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Zaikang Lin
   - admin
-  - Zaiqian Chen
-  - Bianca Dumitrascu
+  - Aaron Zweig
+  - Elham Azizi
   - David A. Knowles
 
 # Author notes (optional)
@@ -15,30 +16,31 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2024-07-17T00:00:00Z'
+date: '2025-01-05T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-07-17T00:00:00Z'
+publishDate: '2024-01-05T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: "In *ICML'24 Workshop ML for Life and Material Science: From Theory to Industry Applications*"
-publication_short: In *ICML'24 Workshop ML for Life and Material Science*
+publication: "*arXiv*"
+# publication_short: In *ICML'24 Workshop ML for Life and Material Science*
 
-abstract: RNA velocity-based methods estimate cellular dynamics and cell developmental trajectories based on spliced and unspliced RNA counts. Although numerous methods have been proposed, RNA velocity-based models vary greatly in their biophysical assumptions, architectures, and use cases. In this work, we introduce a new architecture, CellFlows, which incorporates self-supervised neural dimensionality reduction with the flexibility of neural-based latent time estimation into a mechanistic model, improving model interpretability and accuracy. CellFlows models splicing dynamics to infer gene and context-specific kinetic rates at single-cell resolution and correctly identifies both linear and branching cellular differentiation pathways originating from mouse embryonic stem cells.
+abstract: Modern high-throughput biological datasets with thousands of perturbations provide the opportunity for large-scale discovery of causal graphs that represent the regulatory interactions between genes. Differentiable causal graphical models have been proposed to infer a gene regulatory network (GRN) from large scale interventional datasets, capturing the causal gene regulatory relationships from genetic perturbations. However, existing models are limited in their expressivity and scalability while failing to address the dynamic nature of biological processes such as cellular differentiation. We propose PerturbODE, a novel framework that incorporates biologically informative neural ordinary differential equations (neural ODEs) to model cell state trajectories under perturbations and derive the causal GRN from the neural ODE's parameters. We demonstrate PerturbODE's efficacy in trajectory prediction and GRN inference across simulated and real over-expression datasets. 
 
 # Summary. An optional shortened abstract.
-summary: RNA velocity-based methods estimate cellular dynamics and cell developmental trajectories based on spliced and unspliced RNA counts. In this work, we introduce a new architecture, CellFlows, which incorporates self-supervised neural dimensionality reduction with the flexibility of neural-based latent time estimation into a mechanistic model, improving model interpretability and accuracy. CellFlows models splicing dynamics to infer gene and context-specific kinetic rates at single-cell resolution and correctly identifies both linear and branching cellular differentiation pathways originating from mouse embryonic stem cells.
+summary: 
 
 tags:
   - single-cell dynamics
+  - causal discovery
+  - gene regulatory network
   - neural ODE
-  - VAE
 
 # Display this page in the Featured widget?
 featured: true
@@ -48,10 +50,10 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/pdf?id=ZwSIN40zKM'
+url_pdf: 'https://arxiv.org/abs/2501.02409'
 url_code: ''
 url_dataset: ''
-url_poster: 'https://openreview.net/attachment?id=ZwSIN40zKM&name=poster'
+url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
